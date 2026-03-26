@@ -25,16 +25,9 @@ export default function AboutSection() {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">About Me</h2>
             <p className="text-muted-foreground">
-              I am a dedicated Computer Science Engineering student with a strong passion for
-              problem-solving and AI development. My journey in tech is driven by a desire to
-              continuously learn and enhance my technical expertise.
-            </p>
-            <p className="mt-4 text-muted-foreground">
-              Beyond my curriculum, I have served as a mathematics mentor, which has sharpened my
-              analytical and communication skills. I am keen on applying my knowledge in real-world
-              scenarios and contributing to advancements in artificial intelligence.
-            </p>
-          </div>
+             I’m a Computer Science Engineering student driven by curiosity for data and AI.
+I transform raw data into meaningful insights through analysis and visualization.
+Focused on building intelligent solutions that create real-world impact.            </p>          </div>
           <div className="grid gap-6 sm:grid-cols-2">
             <InteractiveCard className="bg-secondary/30">
               <CardHeader>
@@ -47,26 +40,27 @@ export default function AboutSection() {
                 <div>
                   <p className="font-semibold">B.Tech in Computer Science Engineering</p>
                   <p className="text-sm text-muted-foreground">
-                    Sreenidhi Institute of Science and Technology
+                    Sreenidhi Institute of Science and Technology (2023-Present)
                   </p>
                 </div>
                 <div>
-                  <p className="font-semibold">CGPA: 8.1 / 10.0</p>
+                  <p className="font-semibold">CGPA: 9.28 / 10.0</p>
                   <p className="text-sm text-muted-foreground">Graduation expected in 2027</p>
                 </div>
+               
               </CardContent>
             </InteractiveCard>
              <InteractiveCard className="bg-secondary/30">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-xl">
                   <Trophy className="h-6 w-6 text-primary" />
-                  Achievements
+                  Responsibilities
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                  <li>Focused on solving DSA problems on LeetCode to identify patterns and improve problem-solving skills.</li>
-                  <li>Mathematics Mentor</li>
+                  <li><span className="font-semibold">Task Force Lead – Student Developers Community (SDC):</span> Leading technical initiatives, coordinating team activities, and managing tech-driven projects.</li>
+                  <li><span className="font-semibold">NSS Volunteer:</span> Actively organized 16+ events related to social service, health awareness, and community development.</li>
                 </ul>
               </CardContent>
             </InteractiveCard>

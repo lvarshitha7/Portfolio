@@ -55,15 +55,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$
 ;
 ;
 const metadata = {
-    title: 'Abhinav Kumar Nalla | Portfolio',
-    description: 'Portfolio of Abhinav Kumar Nalla, a Computer Science Engineering student specializing in Machine Learning and DSA.',
+    title: 'Laxmi Varshitha Juturu | Portfolio',
+    description: 'Portfolio of Laxmi Varshitha Juturu, a Data Analyst and AI Developer specializing in data visualization, analytics, and machine learning.',
     keywords: [
-        'Abhinav Kumar Nalla',
+        'Laxmi Varshitha Juturu',
         'Portfolio',
-        'Machine Learning',
-        'DSA',
-        'Developer',
-        'Computer Science'
+        'Data Analyst',
+        'AI Developer',
+        'Data Visualization',
+        'Python',
+        'SQL'
     ]
 };
 function RootLayout({ children }) {

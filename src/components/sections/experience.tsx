@@ -4,23 +4,25 @@ import { InteractiveCard } from '../interactive-card';
 
 const experiences = [
   {
-    role: 'AI Developer',
-    company: 'VISWAM.AI',
-    period: 'Part-time',
-    description: 'Contributed over 100 multimodal Telugu cultural data samples across 6+ categories to enhance a regional large language model.',
+    role: 'DSA Mentor',
+    company: 'Smart Interviews',
+    period: 'Jan 2026 – Present',
+    description: 'Mentoring junior students in Data Structures and Algorithms through structured problem-solving sessions. Guiding students on coding approaches, time complexity analysis, and interview-oriented problem solving.',
   }
 ];
 
 const certifications = [
   {
-    title: 'Deloitte Australia Data Analytics Job Simulation',
-    issuer: 'Forage',
-    date: 'May 2024',
+    title: 'Smart Coder (Gold)',
+    issuer: 'Smart Interviews',
+    date: '',
+    link: 'https://smartinterviews.in/certificate/b75c7bdc',
   },
   {
-    title: 'Smart Interviews DSA Training Program',
-    issuer: 'Smart Interviews',
-    description: '50+ hours of structured instruction in Data Structures and Algorithms.',
+    title: 'Deloitte Data Analytics Virtual Program',
+    issuer: 'Deloitte',
+    description: 'Built dashboards using Tableau and Excel for data-driven insights.',
+    link: 'https://drive.google.com/drive/u/0/my-drive',
   }
 ];
 
@@ -64,7 +66,15 @@ export default function ExperienceSection() {
               {certifications.map((cert, index) => (
                 <InteractiveCard key={index} className="bg-secondary/30">
                   <CardHeader>
-                    <CardTitle className="text-lg">{cert.title}</CardTitle>
+                    <CardTitle className="text-lg">
+                      {cert.link ? (
+                        <a href={cert.link} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                          {cert.title}
+                        </a>
+                      ) : (
+                        cert.title
+                      )}
+                    </CardTitle>
                     <CardDescription>
                       {cert.issuer} {cert.date && `• ${cert.date}`}
                     </CardDescription>

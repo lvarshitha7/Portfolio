@@ -3,7 +3,7 @@ import HeroSection from '@/components/sections/hero';
 import AboutSection from '@/components/sections/about';
 import SkillsSection from '@/components/sections/skills';
 import ProjectsSection from '@/components/sections/projects';
-import ExperienceSection from '@/components/sections/experience';
+import ActivitiesSection from '@/components/sections/activities';
 import ContactSection from '@/components/sections/contact';
 import { AnimatedSection } from '@/components/animated-section';
 
@@ -26,7 +26,7 @@ export default function Home() {
             <SkillsSection />
           </AnimatedSection>
           <AnimatedSection>
-            <ExperienceSection />
+            <ActivitiesSection />
           </AnimatedSection>
           <AnimatedSection>
             <ContactSection />
@@ -35,7 +35,7 @@ export default function Home() {
       </main>
       <footer className="w-full bg-background py-6">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Abhinav Kumar Nalla. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Laxmi Varshitha Juturu. All Rights Reserved.</p>
         </div>
       </footer>
     </div>

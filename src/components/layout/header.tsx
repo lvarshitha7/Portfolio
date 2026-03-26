@@ -9,7 +9,7 @@ const navLinks = [
   { href: '#about', label: 'About' },
   { href: '#projects', label: 'Projects' },
   { href: '#skills', label: 'Skills' },
-  { href: '#experience', label: 'Experience' },
+  { href: '#activities', label: 'Activities' },
   { href: '#contact', label: 'Contact' },
 ];
 
@@ -27,14 +27,14 @@ export default function Header() {
 
   const NavContent = ({ isMobile = false }) => (
     <nav
-      className={`flex items-center gap-1 ${isMobile ? 'flex-col space-y-4 pt-8' : 'gap-6'}`}
+      className={`flex items-center gap-4 ${isMobile ? 'flex-col space-y-4 pt-8' : 'gap-4'}`}
     >
       {navLinks.map(({ href, label }) => (
         <Button
           key={href}
-          variant="link"
+          variant="outline"
           asChild
-          className="text-muted-foreground transition-colors hover:text-primary hover:no-underline"
+          className="text-foreground border-2 border-primary/40 rounded-full px-6 py-2 transition-all duration-300 hover:border-primary hover:bg-primary/10 hover:text-primary"
           onClick={() => isMobile && setOpen(false)}
         >
           <a href={href}>{label}</a>
@@ -52,7 +52,7 @@ export default function Header() {
       <div className="container mx-auto flex h-20 max-w-7xl items-center justify-between px-4">
         <a href="#" className="flex items-center gap-2 text-xl font-bold transition-colors hover:text-primary">
           <Code className="h-6 w-6 text-primary" />
-          <span>Abhinav Kumar Nalla</span>
+          <span>Laxmi Varshitha Juturu</span>
         </a>
 
         <div className="hidden md:flex">

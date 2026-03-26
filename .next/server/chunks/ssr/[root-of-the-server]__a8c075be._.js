@@ -744,7 +744,7 @@ function AboutSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-muted-foreground",
-                                    children: "I am a dedicated Computer Science Engineering student with a strong passion for problem-solving and AI development. My journey in tech is driven by a desire to continuously learn and enhance my technical expertise."
+                                    children: "I am a dedicated Computer Science Engineering student at Sreenidhi Institute of Science and Technology with a strong passion for data analysis and AI development. My journey in tech is driven by a desire to continuously learn and enhance my technical expertise in data visualization and insights extraction."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/about.tsx",
                                     lineNumber: 27,
@@ -752,7 +752,7 @@ function AboutSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-4 text-muted-foreground",
-                                    children: "Beyond my curriculum, I have served as a mathematics mentor, which has sharpened my analytical and communication skills. I am keen on applying my knowledge in real-world scenarios and contributing to advancements in artificial intelligence."
+                                    children: "With 16+ NSS volunteer activities and leadership as Task Force Lead at Student Developers Community (SDC), I've honed my analytical and communication skills. I am keen on applying my knowledge in real-world scenarios and contributing to data-driven decision making and artificial intelligence advancements."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/about.tsx",
                                     lineNumber: 32,
@@ -808,7 +808,7 @@ function AboutSection() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-sm text-muted-foreground",
-                                                            children: "Sreenidhi Institute of Science and Technology"
+                                                            children: "Sreenidhi Institute of Science and Technology (2023-Present)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/about.tsx",
                                                             lineNumber: 49,
@@ -824,7 +824,7 @@ function AboutSection() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "font-semibold",
-                                                            children: "CGPA: 8.1 / 10.0"
+                                                            children: "CGPA: 9.28 / 10.0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/about.tsx",
                                                             lineNumber: 54,
@@ -842,6 +842,30 @@ function AboutSection() {
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/sections/about.tsx",
                                                     lineNumber: 53,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "font-semibold",
+                                                            children: "Pre-University Course"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/sections/about.tsx",
+                                                            lineNumber: 58,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-sm text-muted-foreground",
+                                                            children: "RGUKT Basar (2021-2023) • CGPA: 9.44"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/sections/about.tsx",
+                                                            lineNumber: 59,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/components/sections/about.tsx",
+                                                    lineNumber: 57,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
@@ -867,19 +891,19 @@ function AboutSection() {
                                                         className: "h-6 w-6 text-primary"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/about.tsx",
-                                                        lineNumber: 62,
+                                                        lineNumber: 66,
                                                         columnNumber: 19
                                                     }, this),
-                                                    "Achievements"
+                                                    "Responsibilities"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/sections/about.tsx",
-                                                lineNumber: 61,
+                                                lineNumber: 65,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/about.tsx",
-                                            lineNumber: 60,
+                                            lineNumber: 64,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -887,34 +911,54 @@ function AboutSection() {
                                                 className: "list-disc list-inside space-y-2 text-muted-foreground",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        children: "Focused on solving DSA problems on LeetCode to identify patterns and improve problem-solving skills."
-                                                    }, void 0, false, {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "font-semibold",
+                                                                children: "Task Force Lead – Student Developers Community (SDC):"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/sections/about.tsx",
+                                                                lineNumber: 72,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            " Leading technical initiatives, coordinating team activities, and managing tech-driven projects."
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "[project]/src/components/sections/about.tsx",
-                                                        lineNumber: 68,
+                                                        lineNumber: 72,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        children: "Mathematics Mentor"
-                                                    }, void 0, false, {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "font-semibold",
+                                                                children: "NSS Volunteer:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/sections/about.tsx",
+                                                                lineNumber: 73,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            " Actively organized 16+ events related to social service, health awareness, and community development."
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "[project]/src/components/sections/about.tsx",
-                                                        lineNumber: 69,
+                                                        lineNumber: 73,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/sections/about.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 71,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/about.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 70,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/about.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 63,
                                     columnNumber: 14
                                 }, this)
                             ]
@@ -962,7 +1006,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 const skillCategories = [
     {
-        title: "Programming",
+        title: "Programming Languages",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Code$3e$__["Code"], {
             className: "h-8 w-8 text-primary"
         }, void 0, false, {
@@ -971,14 +1015,13 @@ const skillCategories = [
             columnNumber: 11
         }, this),
         skills: [
-            "C",
-            "C++",
-            "Python"
+            "Python",
+            "SQL"
         ]
     },
     {
-        title: "Web Technologies",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__["Globe"], {
+        title: "Data Analysis & Libraries",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2d$circuit$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__BrainCircuit$3e$__["BrainCircuit"], {
             className: "h-8 w-8 text-primary"
         }, void 0, false, {
             fileName: "[project]/src/components/sections/skills.tsx",
@@ -986,14 +1029,15 @@ const skillCategories = [
             columnNumber: 11
         }, this),
         skills: [
-            "HTML",
-            "CSS",
-            "JavaScript"
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Seaborn"
         ]
     },
     {
-        title: "ML & AI",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2d$circuit$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__BrainCircuit$3e$__["BrainCircuit"], {
+        title: "Data Visualization",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__["Globe"], {
             className: "h-8 w-8 text-primary"
         }, void 0, false, {
             fileName: "[project]/src/components/sections/skills.tsx",
@@ -1001,18 +1045,13 @@ const skillCategories = [
             columnNumber: 11
         }, this),
         skills: [
-            "scikit-learn",
-            "NumPy",
-            "Pandas",
-            "Matplotlib",
-            "CNN",
-            "RNN",
-            "LSTM",
-            "Transformers"
+            "Power BI",
+            "Tableau",
+            "Excel"
         ]
     },
     {
-        title: "Tools & Platforms",
+        title: "Databases & Tools",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$component$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Component$3e$__["Component"], {
             className: "h-8 w-8 text-primary"
         }, void 0, false, {
@@ -1021,15 +1060,15 @@ const skillCategories = [
             columnNumber: 11
         }, this),
         skills: [
-            "Git",
-            "GitHub",
-            "VS Code",
-            "Jupyter",
-            "Google Colab"
+            "MySQL",
+            "PostgreSQL",
+            "SQL Server (SSMS)",
+            "Google Colab",
+            "Jupyter Notebook"
         ]
     },
     {
-        title: "Core CS",
+        title: "Platforms & Version Control",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__["BookOpen"], {
             className: "h-8 w-8 text-primary"
         }, void 0, false, {
@@ -1038,8 +1077,8 @@ const skillCategories = [
             columnNumber: 11
         }, this),
         skills: [
-            "Data Structures & Algorithms (DSA)",
-            "Object-Oriented Programming (OOP)",
+            "Git & GitHub",
+            "Data Structures & Algorithms",
             "DBMS"
         ]
     }
@@ -1201,22 +1240,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$interac
 ;
 const experiences = [
     {
-        role: 'AI Developer',
-        company: 'VISWAM.AI',
-        period: 'Part-time',
-        description: 'Contributed over 100 multimodal Telugu cultural data samples across 6+ categories to enhance a regional large language model.'
+        role: 'DSA Mentor',
+        company: 'Smart Interviews',
+        period: 'Jan 2026 – Present',
+        description: 'Mentoring junior students in Data Structures and Algorithms through structured problem-solving sessions. Guiding students on coding approaches, time complexity analysis, and interview-oriented problem solving.'
     }
 ];
 const certifications = [
     {
-        title: 'Deloitte Australia Data Analytics Job Simulation',
-        issuer: 'Forage',
-        date: 'May 2024'
+        title: 'Smart Coder (Gold)',
+        issuer: 'Smart Interviews',
+        date: '',
+        link: 'https://smartinterviews.in/certificate/b75c7bdc'
     },
     {
-        title: 'Smart Interviews DSA Training Program',
-        issuer: 'Smart Interviews',
-        description: '50+ hours of structured instruction in Data Structures and Algorithms.'
+        title: 'Deloitte Data Analytics Virtual Program',
+        issuer: 'Deloitte',
+        description: 'Built dashboards using Tableau and Excel for data-driven insights.',
+        link: 'https://drive.google.com/drive/u/0/my-drive'
     }
 ];
 function ExperienceSection() {
@@ -1234,7 +1275,7 @@ function ExperienceSection() {
                             children: "Experience & Certifications"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/experience.tsx",
-                            lineNumber: 32,
+                            lineNumber: 34,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1242,13 +1283,13 @@ function ExperienceSection() {
                             children: "My professional journey and qualifications."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/experience.tsx",
-                            lineNumber: 35,
+                            lineNumber: 37,
                             columnNumber: 14
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/experience.tsx",
-                    lineNumber: 31,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1264,14 +1305,14 @@ function ExperienceSection() {
                                             className: "h-7 w-7 text-primary"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/experience.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 42,
                                             columnNumber: 15
                                         }, this),
                                         "Experience"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1285,12 +1326,12 @@ function ExperienceSection() {
                                                         className: "h-2 w-2 rounded-full bg-primary-foreground"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/experience.tsx",
-                                                        lineNumber: 47,
+                                                        lineNumber: 49,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                                    lineNumber: 46,
+                                                    lineNumber: 48,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1298,7 +1339,7 @@ function ExperienceSection() {
                                                     children: exp.role
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                                    lineNumber: 49,
+                                                    lineNumber: 51,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1311,13 +1352,13 @@ function ExperienceSection() {
                                                             children: exp.period
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/experience.tsx",
-                                                            lineNumber: 50,
+                                                            lineNumber: 52,
                                                             columnNumber: 92
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 52,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1325,24 +1366,24 @@ function ExperienceSection() {
                                                     children: exp.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 53,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/components/sections/experience.tsx",
-                                            lineNumber: 45,
+                                            lineNumber: 47,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 45,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/experience.tsx",
-                            lineNumber: 38,
+                            lineNumber: 40,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1355,14 +1396,14 @@ function ExperienceSection() {
                                             className: "h-7 w-7 text-primary"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/experience.tsx",
-                                            lineNumber: 60,
+                                            lineNumber: 62,
                                             columnNumber: 15
                                         }, this),
                                         "Certifications"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1374,10 +1415,20 @@ function ExperienceSection() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardTitle"], {
                                                             className: "text-lg",
-                                                            children: cert.title
+                                                            children: cert.link ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: cert.link,
+                                                                target: "_blank",
+                                                                rel: "noopener noreferrer",
+                                                                className: "hover:text-primary transition-colors",
+                                                                children: cert.title
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/sections/experience.tsx",
+                                                                lineNumber: 71,
+                                                                columnNumber: 25
+                                                            }, this) : cert.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/experience.tsx",
-                                                            lineNumber: 67,
+                                                            lineNumber: 69,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -1388,13 +1439,13 @@ function ExperienceSection() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/sections/experience.tsx",
-                                                            lineNumber: 68,
+                                                            lineNumber: 78,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 68,
                                                     columnNumber: 19
                                                 }, this),
                                                 cert.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1403,46 +1454,46 @@ function ExperienceSection() {
                                                         children: cert.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/experience.tsx",
-                                                        lineNumber: 74,
+                                                        lineNumber: 84,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                                    lineNumber: 73,
+                                                    lineNumber: 83,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/components/sections/experience.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 67,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/experience.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/experience.tsx",
-                            lineNumber: 58,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/experience.tsx",
-                    lineNumber: 37,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/sections/experience.tsx",
-            lineNumber: 30,
+            lineNumber: 32,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/experience.tsx",
-        lineNumber: 29,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
 }
@@ -1607,7 +1658,7 @@ function ContactSection() {
                                     className: "space-y-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "mailto:abhinavnalla10@gmail.com",
+                                            href: "mailto:varshithajuturu2006@gmail.com",
                                             className: "group flex items-center gap-4 transition-colors hover:text-primary",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1636,7 +1687,7 @@ function ContactSection() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-muted-foreground",
-                                                            children: "abhinavnalla10@gmail.com"
+                                                            children: "varshithajuturu2006@gmail.com"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/contact.tsx",
                                                             lineNumber: 24,
@@ -1683,7 +1734,7 @@ function ContactSection() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-muted-foreground",
-                                                            children: "+91 9494890250"
+                                                            children: "+91 7075507654"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/contact.tsx",
                                                             lineNumber: 33,
@@ -1762,7 +1813,7 @@ function ContactSection() {
                                             variant: "outline",
                                             size: "icon",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "https://github.com/Abhinavnalla19",
+                                                href: "https://github.com/lvarshitha7",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
                                                 "aria-label": "GitHub",
@@ -1788,7 +1839,7 @@ function ContactSection() {
                                             variant: "outline",
                                             size: "icon",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "https://www.linkedin.com/in/nallaabhinav",
+                                                href: "https://www.linkedin.com/in/lvarshitha7/",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
                                                 "aria-label": "LinkedIn",

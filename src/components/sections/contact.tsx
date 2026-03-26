@@ -15,13 +15,13 @@ export default function ContactSection() {
         <div className="grid gap-16 md:grid-cols-2">
           <div className="space-y-8">
             <div className="space-y-6">
-              <a href="mailto:abhinavnalla10@gmail.com" className="group flex items-center gap-4 transition-colors hover:text-primary">
+              <a href="mailto:varshithajuturu2006@gmail.com" className="group flex items-center gap-4 transition-colors hover:text-primary">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg border bg-secondary/50 transition-colors group-hover:border-primary group-hover:bg-accent">
                    <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-muted-foreground">abhinavnalla10@gmail.com</p>
+                  <p className="text-muted-foreground">varshithajuturu2006@gmail.com</p>
                 </div>
               </a>
               <div className="group flex items-center gap-4">
@@ -30,7 +30,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p className="text-muted-foreground">+91 9494890250</p>
+                  <p className="text-muted-foreground">+91 7075507654</p>
                 </div>
               </div>
               <div className="group flex items-center gap-4">
@@ -45,12 +45,12 @@ export default function ContactSection() {
             </div>
             <div className="flex gap-2 pt-4">
               <Button asChild variant="outline" size="icon">
-                <a href="https://github.com/Abhinavnalla19" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/lvarshitha7" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
               <Button asChild variant="outline" size="icon">
-                <a href="https://www.linkedin.com/in/nallaabhinav" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/lvarshitha7/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>

@@ -1,152 +1,245 @@
 'use client';
-import { Button } from '@/components/ui/button';
-import { ArrowDown } from 'lucide-react';
-import React, { useRef, useState, useEffect } from 'react';
 
-const GridPattern = () => {
-  return (
-    <div className="pointer-events-none absolute inset-0">
-      <div 
-        className="absolute inset-0 bg-repeat"
-        style={{
-          '--grid-size': '32px',
-          '--grid-color': 'rgba(255, 255, 255, 0.05)',
-          backgroundImage: 'linear-gradient(to right, var(--grid-color) 1px, transparent 1px), linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px)',
-          backgroundSize: 'var(--grid-size) var(--grid-size)',
-          animation: 'keyframes-grid 20s linear infinite',
-        } as React.CSSProperties}
-      ></div>
-    </div>
-  );
-};
-
-const FloatingCharts = () => {
-  return (
-    <div className="absolute inset-0 pointer-events-none overflow-hidden">
-      {/* Bar Chart - Left floating */}
-      <div className="absolute left-0 top-1/4 -translate-y-1/2 opacity-20 animate-float" style={{animationDelay: '0s', animationDuration: '6s'}}>
-        <svg width="220" height="200" viewBox="0 0 220 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="20" y="90" width="25" height="70" fill="rgba(255, 255, 255, 0.6)" rx="3" />
-          <rect x="60" y="60" width="25" height="100" fill="rgba(255, 255, 255, 0.5)" rx="3" />
-          <rect x="100" y="20" width="25" height="140" fill="rgba(255, 255, 255, 0.6)" rx="3" />
-          <rect x="140" y="70" width="25" height="90" fill="rgba(255, 255, 255, 0.5)" rx="3" />
-        
-          </svg>
-      </div>
-
-      
-
-      {/* Line Chart - Top right floating */}
-      <div className="absolute right-1/4 top-0 opacity-20 animate-float" style={{animationDelay: '2s', animationDuration: '8s'}}>
-        <svg width="220" height="140" viewBox="0 0 220 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <polyline points="10,100 60,60 110,80 160,30 210,70" stroke="rgba(255, 255, 255, 0.6)" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-          <circle cx="10" cy="100" r="5" fill="rgba(255, 255, 255, 0.7)" />
-          <circle cx="60" cy="60" r="5" fill="rgba(255, 255, 255, 0.7)" />
-          <circle cx="110" cy="80" r="5" fill="rgba(255, 255, 255, 0.7)" />
-          <circle cx="160" cy="30" r="5" fill="rgba(255, 255, 255, 0.7)" />
-          <circle cx="210" cy="70" r="5" fill="rgba(255, 255, 255, 0.7)" />
-        </svg>
-      </div>
-
-      {/* Area Chart - Bottom left */}
-      <div className="absolute left-0 bottom-0 opacity-20 animate-float" style={{animationDelay: '3s', animationDuration: '9s'}}>
-        <svg width="220" height="160" viewBox="0 0 220 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M 10 120 L 60 80 L 110 100 L 160 40 L 210 70 L 210 160 L 10 160 Z" fill="rgba(255, 255, 255, 0.2)" stroke="rgba(255, 255, 255, 0.6)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      </div>
-
-      {/* Scatter Plot - Bottom center */}
-      <div className="absolute left-1/2 -translate-x-1/2 bottom-0 opacity-20 animate-float" style={{animationDelay: '4s', animationDuration: '10s'}}>
-        <svg width="200" height="180" viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="30" cy="150" r="6" fill="rgba(255, 255, 255, 0.6)" />
-          <circle cx="60" cy="120" r="6" fill="rgba(255, 255, 255, 0.6)" />
-          <circle cx="90" cy="100" r="6" fill="rgba(255, 255, 255, 0.6)" />
-          <circle cx="120" cy="80" r="6" fill="rgba(255, 255, 255, 0.6)" />
-          <circle cx="150" cy="60" r="6" fill="rgba(255, 255, 255, 0.6)" />
-          <circle cx="170" cy="40" r="6" fill="rgba(255, 255, 255, 0.6)" />
-          <circle cx="45" cy="140" r="5" fill="rgba(255, 255, 255, 0.5)" />
-          <circle cx="135" cy="70" r="5" fill="rgba(255, 255, 255, 0.5)" />
-        </svg>
-      </div>
-
-      {/* Doughnut Chart - Right floating */}
-      <div className="absolute right-0 bottom-1/4 translate-y-1/2 opacity-20 animate-float" style={{animationDelay: '5s', animationDuration: '7s'}}>
-        <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="90" cy="90" r="70" stroke="rgba(255, 255, 255, 0.3)" strokeWidth="4" fill="none" />
-          <circle cx="90" cy="90" r="70" stroke="rgba(255, 255, 255, 0.6)" strokeWidth="4" fill="none" strokeDasharray="109.96 219.91" strokeLinecap="round" transform="rotate(-90 90 90)" />
-          <circle cx="90" cy="90" r="70" stroke="rgba(255, 255, 255, 0.4)" strokeWidth="4" fill="none" strokeDasharray="109.96 219.91" strokeLinecap="round" transform="rotate(120 90 90)" />
-          <circle cx="90" cy="90" r="45" fill="rgba(0, 0, 0, 0.3)" />
-        </svg>
-      </div>
-
-      {/* Trend Line Chart - Top center */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 opacity-20 animate-float" style={{animationDelay: '6s', animationDuration: '8s'}}>
-        <svg width="240" height="120" viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M 20 100 Q 60 80 100 60 T 180 50 T 220 30" stroke="rgba(255, 255, 255, 0.6)" strokeWidth="3" fill="none" strokeLinecap="round" />
-          <polyline points="20,100 100,60 180,50 220,30" stroke="rgba(255, 255, 255, 0.3)" strokeWidth="1" fill="none" strokeDasharray="5,5" />
-          <circle cx="20" cy="100" r="4" fill="rgba(255, 255, 255, 0.7)" />
-          <circle cx="100" cy="60" r="4" fill="rgba(255, 255, 255, 0.7)" />
-          <circle cx="180" cy="50" r="4" fill="rgba(255, 255, 255, 0.7)" />
-          <circle cx="220" cy="30" r="4" fill="rgba(255, 255, 255, 0.7)" />
-        </svg>
-      </div>
-    </div>
-  );
-};
+import React, { useRef } from 'react';
+import Image from 'next/image';
+import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
+import { ArrowDown, Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
+import { profile } from '@/data/profile';
+import MagneticButton from '@/components/ui/MagneticButton';
 
 export default function HeroSection() {
-  const heroRef = useRef<HTMLDivElement>(null);
-  const [spotlightStyle, setSpotlightStyle] = useState({});
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (heroRef.current) {
-        const rect = heroRef.current.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        setSpotlightStyle({
-          background: `radial-gradient(circle at ${x}px ${y}px, rgba(29, 78, 216, 0.15), transparent 40%)`,
-        });
-      }
-    };
+  // Set up motion values for 3D card tilt effect
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+
+  // Smooth springs for cursor movement
+  const rotateXSpring = useSpring(useTransform(y, [-0.5, 0.5], [15, -15]), { damping: 25, stiffness: 200 });
+  const rotateYSpring = useSpring(useTransform(x, [-0.5, 0.5], [-15, 15]), { damping: 25, stiffness: 200 });
+
+  // Floating offset for visual depth
+  const translateZ = 50;
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!containerRef.current) return;
+    const { left, top, width, height } = containerRef.current.getBoundingClientRect();
     
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-    };
-  }, []);
+    // Normalize coordinates from -0.5 to 0.5
+    const normalizedX = (e.clientX - left) / width - 0.5;
+    const normalizedY = (e.clientY - top) / height - 0.5;
+    
+    x.set(normalizedX);
+    y.set(normalizedY);
+  };
+
+  const handleMouseLeave = () => {
+    x.set(0);
+    y.set(0);
+  };
 
   return (
-    <section ref={heroRef} id="hero" className="relative w-full h-[80svh] min-h-[600px] flex items-center justify-center text-center overflow-hidden">
-      <div className="absolute inset-0 bg-background">
-        <GridPattern />
-        <FloatingCharts />
-        <div className="absolute inset-0" style={spotlightStyle}></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
-      </div>
-      <div className="container relative z-10 mx-auto max-w-7xl px-4">
-        <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-primary to-primary/70">
-          Laxmi Varshitha Juturu
-        </h1>
-        <p className="mx-auto mt-6 max-w-[700px] text-lg md:text-2xl text-primary/80 font-semibold italic">
-          Turning Data into Decisions, AI into Impact
-        </p>
-        <p className="mx-auto mt-4 max-w-[600px] text-base text-muted-foreground">
-          Passionate about transforming complex data into actionable insights using Python, SQL, and visualization tools. Dedicated to leveraging data-driven strategies and AI to create impactful, real-world solutions.
-        </p>
-        <div className="mt-8 flex justify-center gap-4">
-          <Button asChild size="lg">
-            <a href="#projects">View My Work</a>
-          </Button>
-          <Button asChild variant="outline" size="lg">
-            <a href="#contact">Get In Touch</a>
-          </Button>
+    <section
+      ref={containerRef}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      id="hero"
+      className="relative min-h-[90vh] md:min-h-screen w-full flex items-center bg-[#050508] overflow-hidden pt-28 pb-16"
+    >
+      {/* Background radial soft light grid */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f0f15_1px,transparent_1px),linear-gradient(to_bottom,#0f0f15_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-35" />
+
+      {/* Decorative blurred blob */}
+      <div className="absolute top-1/4 right-1/4 h-[400px] w-[400px] rounded-full bg-[#FF7A00]/5 blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-1/4 left-1/4 h-[300px] w-[300px] rounded-full bg-[#E85D04]/5 blur-[100px] pointer-events-none" />
+
+      <div className="container mx-auto max-w-7xl px-6 md:px-12 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        {/* Info Column - Left */}
+        <div className="lg:col-span-7 flex flex-col items-start text-left">
+          
+          {/* Status Indicator */}
+          {/* <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/5 text-emerald-400 text-xs font-semibold tracking-wide mb-6 shadow-sm"
+          >
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            {profile.availability}
+          </motion.div> */}
+
+          {/* Headline Name */}
+          <div className="overflow-hidden">
+            <motion.a
+              href="#hero"
+              initial={{ y: "100%" }}
+              animate={{ y: 0 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className="block text-[clamp(2.2rem,3.2vw,3.4rem)] sm:text-[clamp(2.5rem,3.4vw,3.9rem)] md:text-[clamp(2.9rem,3.8vw,4.4rem)] font-bold tracking-[-0.06em] text-white leading-[0.9] font-sans max-w-[10.5ch] mb-3 transition-colors duration-300 hover:text-[#FF8A00]"
+            >
+              <span className="block"> I’m</span>
+              <span className="block">Laxmi Varshitha</span>
+              <span className="block">Juturu</span>
+            </motion.a>
+          </div>
+
+          {/* Core statement */}
+          <motion.h3
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="text-lg sm:text-xl md:text-2xl font-medium tracking-tight text-zinc-100 max-w-xl mb-4 leading-snug"
+          >
+            <span>Building with code. <span className="text-[#FF7A00] font-semibold">Thinking with data.</span></span>
+          </motion.h3>
+
+          {/* Short paragraph summary */}
+          <motion.p
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="text-sm md:text-base text-zinc-400 max-w-xl mb-7 leading-relaxed"
+          >
+            <span className="block">Computer Science undergraduate focused on software development and data-driven problem solving.</span>
+            </motion.p>
+
+          {/* CTA Buttons */}
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="flex flex-wrap gap-4 items-center mb-8"
+          >
+            <MagneticButton range={40} strength={0.25}>
+              <a
+                href="#projects"
+                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-[#FF7A00] text-white font-bold text-sm hover:bg-[#E85D04] transition-all duration-300 shadow-lg shadow-[#FF7A00]/20 hover:shadow-[#FF7A00]/40"
+              >
+                View My Work
+              </a>
+            </MagneticButton>
+            
+            <MagneticButton range={40} strength={0.25}>
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full border border-zinc-800 bg-zinc-950/50 hover:bg-zinc-900 text-zinc-200 font-semibold text-sm transition-all duration-300 hover:border-zinc-700"
+              >
+                Get In Touch
+              </a>
+            </MagneticButton>
+          </motion.div>
+
+          {/* Social connections */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="flex items-center gap-6 text-zinc-500 text-sm font-medium"
+          >
+            <a
+              href={profile.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 hover:text-white transition-colors duration-300"
+              data-cursor-text="github"
+            >
+              <Github className="h-4 w-4" />
+              <span>Github</span>
+            </a>
+            <a
+              href={profile.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 hover:text-white transition-colors duration-300"
+              data-cursor-text="linkedin"
+            >
+              <Linkedin className="h-4 w-4" />
+              <span>LinkedIn</span>
+            </a>
+            <a
+              href={`mailto:${profile.email}`}
+              className="flex items-center gap-1.5 hover:text-white transition-colors duration-300"
+              data-cursor-text="email"
+            >
+              <Mail className="h-4 w-4" />
+              <span>Email</span>
+            </a>
+            <a
+              href={profile.leetcode}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 hover:text-white transition-colors duration-300"
+              data-cursor-text="leetcode"
+            >
+              <ExternalLink className="h-3.5 w-3.5" />
+              <span>LeetCode</span>
+            </a>
+          </motion.div>
+
         </div>
+
+        {/* 3D Photo Column - Right */}
+        <div className="lg:col-span-5 flex justify-center items-center">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+            style={{
+              perspective: 1000,
+              transformStyle: 'preserve-3d',
+            }}
+            className="relative w-[300px] h-[300px] sm:w-[380px] sm:h-[380px] group cursor-pointer"
+            data-cursor-text="hello"
+          >
+            <motion.div
+              style={{
+                rotateX: rotateXSpring,
+                rotateY: rotateYSpring,
+                transformStyle: 'preserve-3d',
+              }}
+              className="w-full h-full rounded-2xl border border-zinc-800 bg-zinc-950 p-3 shadow-2xl relative overflow-hidden"
+            >
+              {/* Internal framing element */}
+              <div 
+                style={{ transform: `translateZ(${translateZ}px)` }}
+                className="w-full h-full rounded-xl overflow-hidden relative border border-[#FF7A00]/10"
+              >
+                <Image
+                  src="/varshitha_podium.jpeg"
+                  alt={profile.name}
+                  fill
+                  sizes="(max-width: 768px) 300px, 380px"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105 filter grayscale contrast-115 group-hover:grayscale-0"
+                  priority
+                />
+                
+                {/* Subtle vignette layer overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80" />
+                
+                {/* Info Overlay at the bottom */}
+                <div className="absolute bottom-6 left-6 right-6 text-left">
+                  <p className="text-[10px] uppercase font-bold tracking-widest text-[#FF7A00] mb-1">
+                    
+                  </p>
+                  <p className="text-base font-bold text-white font-sans">
+                    Laxmi Varshitha J.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        </div>
+
       </div>
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
-        <a href="#about" aria-label="Scroll to about section">
-          <ArrowDown className="h-6 w-6 animate-bounce text-muted-foreground" />
-        </a>
+
+      {/* Down indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 pointer-events-none opacity-40">
+        <span className="text-[10px] tracking-widest uppercase font-semibold text-zinc-500">Scroll</span>
+        <ArrowDown className="h-4 w-4 animate-bounce text-zinc-400" />
       </div>
     </section>
   );

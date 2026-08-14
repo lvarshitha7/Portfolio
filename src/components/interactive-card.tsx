@@ -1,9 +1,9 @@
 'use client';
 import React, { useRef, useState, useEffect } from 'react';
-import { Card, CardProps } from '@/components/ui/card';
+import { Card } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 
-interface InteractiveCardProps extends CardProps {
+interface InteractiveCardProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
 }
 

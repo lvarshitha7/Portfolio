@@ -51,7 +51,6 @@ This project uses several key libraries and frameworks:
 *   **Next.js:** A React framework for building server-rendered and statically generated web applications.
 *   **React:** A JavaScript library for building user interfaces.
 *   **Firebase:** A platform for building web and mobile applications, providing services like authentication, database, and hosting.
-*   **Genkit:** A framework for building AI-powered features.
 *   **Tailwind CSS:** A utility-first CSS framework for rapidly building custom designs.
 *   **Shadcn/ui:** A collection of reusable UI components.
 *   **TypeScript:** A typed superset of JavaScript that compiles to plain JavaScript.

@@ -1,88 +1,45 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Code, Globe, BrainCircuit, Component, BookOpen, Database, BarChart3, LineChart, PieChart, Cloud, GitBranch, Github, Cpu } from 'lucide-react';
+'use client';
 
-const skillCategories = [
-  {
-    title: "Databases & Tools",
-    icon: <Component className="h-8 w-8 text-primary" />,
-    skills: [
-      { name: "MySQL", icon: <Database className="h-4 w-4" /> },
-      { name: "PostgreSQL", icon: <Database className="h-4 w-4" /> },
-      { name: "SQL Server (SSMS)", icon: <Database className="h-4 w-4" /> },
-      { name: "MongoDB", icon: <Database className="h-4 w-4" /> },
-      { name: "Google Colab", icon: <Cloud className="h-4 w-4" /> },
-      { name: "Jupyter Notebook", icon: <BookOpen className="h-4 w-4" /> }
-    ],
-  },
-  {
-    title: "Data Analysis & Libraries",
-    icon: <BrainCircuit className="h-8 w-8 text-primary" />,
-    skills: [
-      { name: "Pandas", icon: <BarChart3 className="h-4 w-4" /> },
-      { name: "NumPy", icon: <Cpu className="h-4 w-4" /> },
-      { name: "Matplotlib", icon: <LineChart className="h-4 w-4" /> },
-      { name: "Seaborn", icon: <BarChart3 className="h-4 w-4" /> }
-    ],
-  },
-  {
-    title: "Data Visualization",
-    icon: <Globe className="h-8 w-8 text-primary" />,
-    skills: [
-      { name: "Power BI", icon: <BarChart3 className="h-4 w-4" /> },
-      { name: "Tableau", icon: <PieChart className="h-4 w-4" /> },
-      { name: "Excel", icon: <BarChart3 className="h-4 w-4" /> }
-    ],
-  },
-  {
-    title: "Platforms & Version Control",
-    icon: <BookOpen className="h-8 w-8 text-primary" />,
-    skills: [
-      { name: "Git & GitHub", icon: <Github className="h-4 w-4" /> },
-      { name: "Data Structures & Algorithms", icon: <BookOpen className="h-4 w-4" /> },
-      { name: "DBMS", icon: <Database className="h-4 w-4" /> }
-    ],
-  },
-  {
-    title: "Programming Languages",
-    icon: <Code className="h-8 w-8 text-primary" />,
-    skills: [
-      { name: "Python", icon: <Code className="h-4 w-4" /> },
-      { name: "SQL", icon: <Database className="h-4 w-4" /> },
-      { name: "Java", icon: <Code className="h-4 w-4" /> }
-    ],
-  }
-];
+import React from 'react';
+import { motion } from 'framer-motion';
+import { skillCategories } from '@/data/skills';
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="w-full py-20 md:py-28">
-      <div className="container mx-auto max-w-7xl px-4">
-        <div className="mx-auto mb-12 max-w-3xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Technical Skills</h2>
-          <p className="mt-4 text-muted-foreground">
-            My technical toolkit, constantly being refined and expanded.
-          </p>
-        </div>
+    <section id="skills" className="relative w-full py-16 md:py-24 bg-[#050508] border-t border-zinc-900">
+      <div className="container mx-auto max-w-6xl px-6 md:px-12 relative z-10">
+        <div className="rounded-[28px] border border-zinc-800 bg-[#0b0d12]/80 p-6 md:p-10 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white font-sans">
+            Technical Skills
+          </h2>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {skillCategories.map((category) => (
-            <Card key={category.title} className="bg-secondary/30 transition-all hover:bg-secondary/50 hover:shadow-lg">
-              <CardHeader className="flex flex-row items-center gap-4">
-                {category.icon}
-                <CardTitle className="text-xl text-primary">{category.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="flex flex-wrap gap-2">
+          <div className="mt-10 grid gap-x-12 gap-y-8 md:grid-cols-3">
+            {skillCategories.map((category, idx) => (
+              <motion.div
+                key={category.title}
+                initial={{ opacity: 0, y: 18 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: idx * 0.1 }}
+                className="space-y-4"
+              >
+                <h3 className="text-2xl md:text-3xl font-medium tracking-[-0.04em] text-white leading-tight">
+                  {category.title}
+                </h3>
+
+                <div className="flex flex-wrap gap-3">
                   {category.skills.map((skill) => (
-                    <li key={typeof skill === 'string' ? skill : skill.name} className="flex items-center gap-2 rounded-full bg-secondary px-3 py-1 text-sm font-code text-muted-foreground">
-                      {typeof skill !== 'string' && <span className="text-primary">{skill.icon}</span>}
-                      {typeof skill === 'string' ? skill : skill.name}
-                    </li>
+                    <span
+                      key={skill}
+                      className="inline-flex items-center rounded-full border border-zinc-700 bg-zinc-800/80 px-4 py-2 text-sm font-medium text-zinc-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] transition-all duration-300 ease-out hover:-translate-y-0.5 hover:border-[#FF8A00]/60 hover:bg-zinc-800 hover:text-[#FFB36B] hover:shadow-[0_0_0_1px_rgba(255,122,0,0.18),0_0_18px_rgba(255,122,0,0.12)] hover:[text-shadow:0_0_12px_rgba(255,122,0,0.35)]"
+                    >
+                      {skill}
+                    </span>
                   ))}
-                </ul>
-              </CardContent>
-            </Card>
-          ))}
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
